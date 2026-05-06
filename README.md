@@ -1,4 +1,4 @@
-# Animal Species Classification
+# Animal and Object Detection using YOLOv8
 **Student:** Star Yarbrough
 **Course:** ITAI 1378 - Computer Vision and AI
 **Project Tier:** Tier 1 Computer Vision Project
