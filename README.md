@@ -10,17 +10,16 @@ Identifying animal species from images can be time-consuming and often requires 
 This project proposes an image classification system that predicts the species of an animal from an input image and outputs the predicted species along with a confidence score. 
 
 ## Technical Approach
-- **Technique:** Image Classification
-- **Model:** ResNet-50 (pre-trained)
-- **Framework:** PyTorch 
-- **Method:** Transfer learning to fine-tune the model on an animal species dataset
+- **Technique:** Object Detection
+- **Model:** YOLOv8 (pre-trained)
+- **Framework:** Ultralytics YOLO + Python
+- **Method:** A pretrained YOLOv8 model was used to test oject detection performance on  various animal and object images in Google Colab. 
 
 ## Dataset Plan
-- **Source:** iNaturalist  2021 Dataset
-- **Size:** 10,000+ labeled images (subset will be used for Tier 1)
-- **Labels:** Animal species categories
-- **Link:** https://github.com/visipedia/inat_comp
-- **Preparation:** Resize images, normalize pixel values, and split into training and testing set. Transfer learning will be applied.
+- **Source:** Personal test images and publicly available animal images. 
+- **Content:** Images included real dogs, a backyard cat, stuffed animal objects, decorative objects, and online wildlife images. 
+- **Purpose:** The images were used to evaluate how a pretrained YOLOv8 model performs on different types of animal and object imagery. 
+- **Preparation:** Images were uploaded into Google Colab and processed individually during YOLOv8 inference. 
 
 ## Success Metrics
 - **PrimarybMetric:** Classification accuracy &ge; 80%
@@ -54,7 +53,8 @@ This section will be updated as development continues.
 
 ## Current Status 
 - [x] Repository created
-- [x] Dataset accquired
-- [x] Model training started
-- [x] Demo created
+- [x] YOLOv8 Notebook comlpeted
+- [x] Multiple image detection tests completed 
+- [x] Project analysis and obersavtions completed
+- [x] AI Usage Logs created
 - [ ] Final Presentation ready
