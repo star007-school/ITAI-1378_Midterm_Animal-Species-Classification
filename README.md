@@ -55,6 +55,6 @@ This section will be updated as development continues.
 ## Current Status 
 - [x] Repository created
 - [x] Dataset accquired
-- [ ] Model training started
-- [ ] Demo created
+- [x] Model training started
+- [x] Demo created
 - [ ] Final Presentation ready
