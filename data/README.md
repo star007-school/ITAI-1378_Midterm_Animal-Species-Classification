@@ -1,16 +1,20 @@
 # Dataset Information
 
-Dataset: iNaturalist
+## Source
+Personal test images and publicly available animal images.
 
-Source:
-https://www.inaturalist.org/
+## Description
+This project uses a small collection of real-world animal and object images to evaluate the performance of a pretrained YOLOv8 object detection model.
 
-Description:
-This project will use images from the iNaturalist dataset for animal species classification.
+## Data Type
+Images of:
+- Real dogs
+- A backyard cat
+- Stuffed animal objects
+- Decorative objects
+- Online wildlife images
 
-Data Type:
-Images of animals in natural environments
-
-Planned Use:
-- Training a computer vision model
-- Testing classification accuracy
+## Planned Use
+- Testing object detection performance
+- Evaluating successful and failed detections
+- Observing limitations of pretrained object detection models
