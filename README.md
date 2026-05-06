@@ -59,3 +59,7 @@ This section will be updated as development continues.
 - [x] Project analysis and observations completed
 - [x] AI Usage Logs created
 - [x] README documentation updated
+
+## Demo Video
+https://drive.google.com/file/d/1rxiFiyVovUAFABSxkmgpvyySaotPClPm/view?usp=drive_link
+
