@@ -4,10 +4,10 @@
 **Project Tier:** Tier 1 Computer Vision Project
 
 ## Problem Statement
-Identifying animal species from images can be time-consuming and often requires expert knowledge. Automaating species classification can assist wildlife researchers and biodiversity monitoring efforts by speeding up the identification process.
+Identifying animal species from images can be time-consuming and often requires expert knowledge. Automating species classification can assist wildlife researchers and biodiversity monitoring efforts by speeding up the identification process.
 
 ## Solution Overview
-This project proposes an image classification system that predicts the species of an animal from an input image and outputs the predicted species along with a confidence score. 
+This project explores how a pretrained YOLOv8 object detection model performs on real-world animal and object images. The system analyzes uploaded images and identifies detected objects with bounding boxes and confidence scores.
 
 ## Technical Approach
 - **Technique:** Object Detection
@@ -22,7 +22,7 @@ This project proposes an image classification system that predicts the species o
 - **Preparation:** Images were uploaded into Google Colab and processed individually during YOLOv8 inference. 
 
 ## Success Metrics
-- **PrimarybMetric:** Classification accuracy &ge; 80%
+- **PrimarybMetric:** Detection accuracy and successful object recognition
 - **Secondary Metric:** Inference time < 1 second per image
 
 ## Week-by-week Plan
@@ -35,8 +35,9 @@ This project proposes an image classification system that predicts the species o
 
 ## Resources Needed
 - Google Colab (free GPU)
-- PyTorch
-- Public wildlife dataset
+- Ultralytics YOLOv8
+- Python
+- Personal and publicly available test images
 - Estimated Cost: $0
 
 ## Risk & Mitigation
@@ -53,8 +54,8 @@ This section will be updated as development continues.
 
 ## Current Status 
 - [x] Repository created
-- [x] YOLOv8 Notebook comlpeted
+- [x] YOLOv8 Notebook completed
 - [x] Multiple image detection tests completed 
-- [x] Project analysis and obersavtions completed
+- [x] Project analysis and observations completed
 - [x] AI Usage Logs created
-- [ ] Final Presentation ready
+- [x] README documentation updated
